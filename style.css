@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.playButtons {
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    grid-gap: 5px;
+}
+
+.playButtons button {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+#start {
+    margin-top: 20px;
+    width: 80px;
+    height: auto;
+    border: 0;
+    border-radius: 3%;
+    background-color: white;
+}
+
+#start:hover{
+    background-color: green;
+}
+
+#streak {
+    color: white;
+    font-size: small;
+    margin-bottom: 10px;
+}
