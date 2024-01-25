@@ -60,6 +60,10 @@ function checkButton() {
         streak = 0;
         document.getElementById("streak").innerText = "Winning Streak: " + streak; 
 
+        buttonList.forEach(function(button) {
+            button.removeEventListener('click', checkButton);
+        });
+
         showNumbers();
     }
 }
