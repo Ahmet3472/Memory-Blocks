@@ -38,6 +38,7 @@ body {
     border: 0;
     border-radius: 3%;
     background-color: white;
+    color: black;
 }
 
 #start:hover{
